@@ -1,64 +1,47 @@
+import { motion, useAnimation } from "framer-motion";
 import React from "react";
+import { useState } from "react";
 
 export default function Navbar() {
+  
+  
   return (
-      <div className="navbar bg-background px-2 lg:px-24 w-full">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
-          </div>
-          <a className="text-xl font-bold">MUHAHA</a>
-        </div>
-        <div className="navbar-center hidden lg:flex ">
-          <ul className="menu menu-horizontal space-x-8">
-            <li>
-              <a className="font-semibold text-neutral text-lg hover:text-primary">Home</a>
-            </li>
-            <li>
-              <a className="font-semibold text-neutral text-lg hover:text-primary">About</a>
-            </li>
-            <li>
-              <a className="font-semibold text-neutral text-lg hover:text-primary">Works</a>
-            </li>
-            <li>
-              <a className="font-semibold text-neutral text-lg hover:text-primary">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn btn-outline hidden lg:flex lg:px-8 rounded-none font-bold hover:border-primary hover:text-primary">
-            Let's talk
-          </a>
-        </div>
+    <div className="navbar-center w-screen h-[10vh] flex justify-center ">
+      
+      {/* Mobile Navbar */}
+      <div className="navbar-center w-screen h-full flex lg:hidden items-center justify-between px-4 md:px-8">
+        <a className="text-xl font-bold">MILL</a>
       </div>
+
+      {/* Desktop Navbar */}
+      <div className="navbar-center h-full w-screen hidden lg:flex lg:max-w-[1440px] justify-between px-24 items-center ">
+        <a className="text-xl font-bold">MILL</a>
+        <ul className="menu menu-horizontal">
+          <li>
+            <a className="font-semibold text-neutral text-base hover:text-primary">
+              Home
+            </a>
+          </li>
+          <li>
+            <a className="font-semibold text-neutral text-base hover:text-primary">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="font-semibold text-neutral text-base hover:text-primary">
+              Works
+            </a>
+          </li>
+          <li>
+            <a className="font-semibold text-neutral text-base hover:text-primary">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <a className="btn btn-outline hidden md:flex px-8 rounded-none font-bold hover:border hover:border-primary hover:text-primary">
+          Let's talk
+        </a>
+      </div>
+    </div>
   );
 }
