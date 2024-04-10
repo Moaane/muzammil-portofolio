@@ -20,7 +20,7 @@ export default function Home() {
           animate="visible"
         >
           <div className="flex flex-1 flex-col items-center text-neutral mt-4 space-y-8 lg:items-start sm:mt-0">
-            <div className="text-lg font-bold text-center lg:text-left sm:text-3xl md:text-4xl lg:text-5xl">
+            <div className="text-sm font-bold text-center lg:text-left sm:text-3xl md:text-4xl lg:text-xl">
               <h1>
                 HI, I'M MUZAMMIL{" "}
                 <span className="block leading-relaxed">A CREATIVE DESIGNER</span>{" "}
