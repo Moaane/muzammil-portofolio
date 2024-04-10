@@ -20,7 +20,7 @@ export default function Home() {
           animate="visible"
         >
           <div className="flex flex-1 flex-col items-center text-neutral mt-4 space-y-8 lg:items-start sm:mt-0">
-            <div className="text-xl font-bold text-center lg:text-left sm:text-3xl md:text-4xl lg:text-5xl">
+            <div className="text-lg font-bold text-center lg:text-left sm:text-3xl md:text-4xl lg:text-5xl">
               <h1>
                 HI, I'M MUZAMMIL{" "}
                 <span className="block leading-relaxed">A CREATIVE DESIGNER</span>{" "}
@@ -28,9 +28,9 @@ export default function Home() {
               </h1>
             </div>
             <div className="flex flex-wrap justify-center space-x-5 lg:space-x-5 lg:justify-start">
-              <h1 className="text-md sm:text-2xl font-bold">DESIGN</h1>
-              <h1 className="text-md sm:text-2xl font-bold">DEVELOPMENT</h1>
-              <h1 className="text-md sm:text-2xl font-bold">WEBFLOW</h1>
+              <h1 className="text-md sm:text-lg font-bold">DESIGN</h1>
+              <h1 className="text-md sm:text-lg font-bold">DEVELOPMENT</h1>
+              <h1 className="text-md sm:text-lg font-bold">WEBFLOW</h1>
             </div>
             <div className="border-neutral border flex justify-center lg:justify-start space-x-2">
               <div className="text-white bg-black font-semibold py-3 px-10">
