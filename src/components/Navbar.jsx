@@ -6,7 +6,7 @@ export default function Navbar() {
   
   
   return (
-    <div className="navbar-center w-screen h-[10vh] flex justify-center bg-white">
+    <div className="navbar-center fixed w-screen h-[5vh] md:h-[10vh] flex justify-center bg-white">
       
       {/* Mobile Navbar */}
       <div className="navbar-center w-screen h-full flex lg:hidden items-center justify-between px-4 md:px-8">
@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
 
       {/* Desktop Navbar */}
-      <div className="navbar-center h-full w-screen hidden lg:flex lg:max-w-[1440px] justify-between px-24 items-center ">
+      <div className="navbar-center h-full w-screen hidden lg:flex lg:max-w-[1440px] justify-between items-center ">
         <a className="text-xl font-bold">MILL</a>
         <ul className="menu menu-horizontal">
           <li>

@@ -50,7 +50,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="relative overflow-hidden" ref={comp}>
+    <div className="relative overflow-hidden bg-white" ref={comp}>
       <div
         id="intro-slider"
         className="h-screen w-screen p-10 bg-white absolute top-0 left-0 font-sans font-semibold z-10 flex flex-col gap-4 md:gap-10 tracking-tight"
