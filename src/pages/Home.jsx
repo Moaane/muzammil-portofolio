@@ -53,7 +53,7 @@ const App = () => {
     <div className="relative overflow-hidden bg-white" ref={comp}>
       <div
         id="intro-slider"
-        className="h-screen w-screen p-10 bg-white absolute top-0 left-0 font-sans font-semibold z-10 flex flex-col gap-4 md:gap-10 tracking-tight"
+        className="h-[500vh]  w-screen p-10 bg-white fixed top-0 left-0 font-sans font-semibold z-10 flex flex-col gap-4 md:gap-10 tracking-tight"
       >
         <h1 className="text-5xl md:text-7xl lg:text-9xl" id="title-1">
           Web Developer
@@ -62,7 +62,7 @@ const App = () => {
           UI UX Designer
         </h1>
         <h1 className="text-5xl  md:text-7xl lg:text-9xl" id="title-3">
-          UWU
+          UwU
         </h1>
       </div>
 
