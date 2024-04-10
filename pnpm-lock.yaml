@@ -14,6 +14,9 @@ dependencies:
   gsap:
     specifier: ^3.12.5
     version: 3.12.5
+  locomotive-scroll:
+    specifier: 5.0.0-beta.11
+    version: 5.0.0-beta.11
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -524,6 +527,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@studio-freight/lenis@1.0.29:
+    resolution: {integrity: sha512-z/qS8ato5m2wlxQREYj5iALcxMrhhm06vEiLqYzLI+3HmpPzPscmJ8cXNiay4bj692vOot2hyTA3WP++AQVoKA==}
+    dev: false
 
   /@swc/core-darwin-arm64@1.4.13:
     resolution: {integrity: sha512-36P72FLpm5iq85IvoEjBvi22DiqkkEIanJ1M0E8bkxcFHUbjBrYfPY9T6cpPyK5oQqkaTBvNAc3j1BlVD6IH6w==}
@@ -1942,6 +1949,13 @@ packages:
     dependencies:
       p-locate: 5.0.0
     dev: true
+
+  /locomotive-scroll@5.0.0-beta.11:
+    resolution: {integrity: sha512-FQm0Yjk9X+euXmiaKVRVQNw/WuQXoTBp9eqPyZqsXDSwuiedaoJzzC0SGBM9CZRJ4tKaCHGa3pfp6CFgPyEq6Q==}
+    engines: {node: '>=17'}
+    dependencies:
+      '@studio-freight/lenis': 1.0.29
+    dev: false
 
   /lodash.castarray@4.4.0:
     resolution: {integrity: sha512-aVx8ztPv7/2ULbArGJ2Y42bG1mEQ5mGjpdvrbJcJFU3TbYybe+QlLS4pst9zV52ymy2in1KpFPiZnAOATxD4+Q==}

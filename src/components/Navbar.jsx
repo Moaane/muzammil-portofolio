@@ -6,7 +6,7 @@ export default function Navbar() {
   
   
   return (
-    <div className="navbar-center w-screen h-[10vh] flex justify-center ">
+    <div className="navbar-center w-screen h-[10vh] flex justify-center bg-white">
       
       {/* Mobile Navbar */}
       <div className="navbar-center w-screen h-full flex lg:hidden items-center justify-between px-4 md:px-8">
