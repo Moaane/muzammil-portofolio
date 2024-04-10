@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-      <div className="navbar bg-background px-2 lg:px-32 w-full">
+      <div className="navbar bg-background px-2 lg:px-24 w-full">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

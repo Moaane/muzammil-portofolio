@@ -14,37 +14,40 @@ export default function Home() {
       <Navbar />
       <DefaultLayout>
         <motion.div
-          className="hero min-h-screen flex flex-col items-center justify-between px-4 md:px-8 lg:flex-row lg:min-h-[82vh]"
+          className="hero min-h-full flex flex-col items-center justify-between space-y-6 md:space-y-8 px-4 md:px-8 lg:flex-row lg:min-h-[82vh]"
           variants={entranceVariants}
           initial="hidden"
           animate="visible"
         >
-          <div className="flex flex-1 flex-col items-center text-neutral mt-4 space-y-8 lg:items-start sm:mt-0">
-            <div className="text-sm font-bold text-center lg:text-left sm:text-sm md:text-sm lg:text-xl">
+          <div className="flex flex-1 flex-col items-center text-neutral mt-4 space-y-6 md:space-y-8 lg:items-start sm:mt-0">
+            <div className="text-xl font-bold text-center lg:text-left sm:text-2xl md:text-3xl lg:text-3xl">
               <h1>
                 HI, I'M MUZAMMIL{" "}
-                <span className="block leading-relaxed">A CREATIVE DESIGNER</span>{" "}
+                <span className="block leading-relaxed">
+                  A CREATIVE DESIGNER
+                </span>{" "}
                 BASED IN INDONESIA
               </h1>
             </div>
             <div className="flex flex-wrap justify-center space-x-5 lg:space-x-5 lg:justify-start">
-              <h1 className="text-md sm:text-lg font-bold">DESIGN</h1>
-              <h1 className="text-md sm:text-lg font-bold">DEVELOPMENT</h1>
-              <h1 className="text-md sm:text-lg font-bold">WEBFLOW</h1>
+              <h1 className="text-sm sm:text-lg font-bold">DESIGN</h1>
+              <h1 className="text-sm sm:text-lg font-bold">DEVELOPMENT</h1>
+              <h1 className="text-sm sm:text-lg font-bold">WEBFLOW</h1>
             </div>
-            <div className="border-neutral border flex justify-center lg:justify-start space-x-2">
-              <div className="text-white bg-black font-semibold py-3 px-10">
+
+            <div className="border-neutral border flex justify-start">
+              <p className="text-sm sm:md text-center text-white bg-black font-semibold py-1 md:py-3 px-3">
                 Got a project?
-              </div>
-              <div className="bg-background font-semibold px-8 py-3">
+              </p>
+              <p className="text-sm sm:md text-center bg-background font-semibold py-1 md:py-3 px-2">
                 Let's talk
-              </div>
+              </p>
             </div>
           </div>
           <img
             src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvczkzLXBhLTU3OThfMS5wbmc.png"
             alt="Gambar Hero"
-            className="w-full max-w-md mx-auto mt-6 rounded-lg shadow-lg lg:max-w-lg lg:mt-0"
+            className="w-full max-w-sm mx-auto mt-0 rounded-lg shadow-lg lg:max-w-sm lg:mt-0"
           />
         </motion.div>
 
