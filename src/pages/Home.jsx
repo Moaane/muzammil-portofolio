@@ -27,7 +27,7 @@ const App = () => {
         <Tracker />
         <Award />
         <PortofolioSection />
-        <ServicesSection />
+        {/* <ServicesSection /> */}
       </DefaultLayout>
       {/* <div className="h-screen"></div> */}
       <Footer />
