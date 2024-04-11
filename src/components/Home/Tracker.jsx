@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tracker() {
   return (
-    <div className="w-full max-w-[1440px] border grid grid-rows-3 grid-cols-1 md:grid-rows-1 lg:grid-cols-3 justify-between">
+    <div className="w-full max-w-[1440px] border-2 grid grid-rows-3 grid-cols-1 md:grid-rows-1 lg:grid-cols-3 justify-between">
       <div className="py-6 gap-4 flex flex-col justify-center items-center ">
         <h1 className="font-extrabold text-7xl">2+</h1>
         <h1 className="uppercase font-semibold md:text-xs  lg:text-base xl:text-xl">

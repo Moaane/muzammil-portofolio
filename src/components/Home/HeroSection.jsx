@@ -4,25 +4,30 @@ export default function HeroSection() {
   return (
     <div className="w-full flex flex-col items-center justify-between lg:flex-row lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero ">
       <div className="flex flex-col space-y-4 md:space-y-8 text-neutral w-full">
-        <div className="square font-extrabold text-3xl md:text-5xl lg:text-4xl xl:text-5xl">
+        <div className="font-extrabold text-3xl md:text-5xl lg:text-4xl xl:text-5xl">
           <h1>
-            HI, I'M MUZAMMIL.
-            <span className="block md:leading-relaxed">A WEB DEVELOPER</span>
-            BASED IN INDONESIA
+            HI,
+            <a className="hover:text-orange duration-300">I'M MUZAMMIL.</a>
+            <span className="block md:leading-relaxed text-orange">A WEB DEVELOPER</span>
+            BASED IN <del>INDONESIA</del>
           </h1>
         </div>
         <div className="flex flex-wrap space-x-5 ">
-          <h1 className="font-bold text-black text-sm md:text-2xl">DESIGN</h1>
-          <h1 className="font-bold text-black text-sm md:text-2xl">
+          <a className="font-bold text-black text-sm md:text-2xl hover:text-orange">
+            DESIGN
+          </a>
+          <a className="font-bold text-black text-sm md:text-2xl hover:text-orange">
             DEVELOPMENT
-          </h1>
-          <h1 className="font-bold text-black text-sm md:text-2xl">WEBFLOW</h1>
+          </a>
+          <a className="font-bold text-black text-sm md:text-2xl hover:text-orange">
+            WEBFLOW
+          </a>
         </div>
         <div className="flex flex-col items-center md:flex-row md:space-y-0 space-y-2">
-          <button className="btn bg-black text-white w-full md:btn-wide hover:bg-black border-none rounded-none">
+          <button className="btn bg-black text-white w-full md:btn-wide border-none rounded-none hover:bg-black">
             Got a project?
           </button>
-          <button className="btn w-full md:w-fit rounded-none">
+          <button className="btn font-bold w-full md:w-fit border-2 rounded-none">
             Let's talk.
           </button>
         </div>

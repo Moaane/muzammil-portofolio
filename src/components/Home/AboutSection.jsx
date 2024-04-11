@@ -8,7 +8,7 @@ export default function AboutSection() {
           muzammil alvaro
         </h1>
 
-        <h1 className="font-bold md:font-extrabold text-3xl md:text-5xl lg:text-5xl xl:text-6xl">
+        <h1 className="font-bold md:font-extrabold text-3xl md:text-5xl lg:text-5xl xl:text-6xl tracking-wider">
           Lead product designer and art director.
         </h1>
       </div>
