@@ -6,16 +6,16 @@ export default function Navbar() {
   
   
   return (
-    <div className="navbar-center fixed w-screen h-[5vh] md:h-[10vh] flex justify-center bg-white">
+    <div className="fixed w-screen h-[5vh] md:h-[8vh] lg:h-[10vh] flex justify-center">
       
       {/* Mobile Navbar */}
       <div className="navbar-center w-screen h-full flex lg:hidden items-center justify-between px-4 md:px-8">
-        <a className="text-xl font-bold">MILL</a>
+        <a className="text-xl md:text-2xl font-extrabold">MILL</a>
       </div>
 
       {/* Desktop Navbar */}
-      <div className="navbar-center h-full w-screen hidden lg:flex lg:max-w-[1440px] justify-between items-center ">
-        <a className="text-xl font-bold">MILL</a>
+      <div className="navbar-center h-full lg:w-full hidden lg:flex lg:max-w-[1440px] md:px-24 2xl:px-0 justify-between items-center">
+        <a className="text-2xl font-extrabold">MILL</a>
         <ul className="menu menu-horizontal">
           <li>
             <a className="font-semibold text-neutral text-base hover:text-primary">

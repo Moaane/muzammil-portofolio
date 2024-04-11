@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <div className="w-full flex flex-col items-center justify-between lg:flex-row lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero">
+    <div className="w-full flex flex-col items-center justify-between lg:flex-row lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero ">
       <div className="flex flex-col space-y-4 md:space-y-8 text-neutral w-full">
         <div className="square font-extrabold text-3xl md:text-5xl lg:text-4xl xl:text-5xl">
           <h1>

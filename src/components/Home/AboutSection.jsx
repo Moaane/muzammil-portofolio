@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-2 md:gap-6 lg:space-x-2">
+    <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-2 md:gap-6 lg:space-x-2 ">
       <div className="flex flex-col lg:w-1/2 gap-2 md:gap-6 lg:justify-between">
         <h1 className="uppercase font-sans font-bold text-xl md:text-2xl">
           muzammil alvaro
