@@ -9,29 +9,31 @@ import AnimatedCursor from "react-animated-cursor";
 export default function App() {
   return (
     <Intro>
-      <AnimatedCursor
-        outerSize={0}
-        innerSize={70}
-        showSystemCursor={false}
-        innerScale={2}
-        innerStyle={{
-          accentColor: "255, 0, 0",
-          mixBlendMode: "exclusion"
-        }}
-        clickables={[
-          "a",
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          "label[for]",
-          "select",
-          "textarea",
-          "button",
-          ".link",
-        ]}
-      ></AnimatedCursor>
+      <div className="hidden lg:block">
+        <AnimatedCursor
+          outerSize={0}
+          innerSize={70}
+          showSystemCursor={false}
+          innerScale={2}
+          innerStyle={{
+            accentColor: "255, 0, 0",
+            mixBlendMode: "exclusion",
+          }}
+          clickables={[
+            "a",
+            'input[type="text"]',
+            'input[type="email"]',
+            'input[type="number"]',
+            'input[type="submit"]',
+            'input[type="image"]',
+            "label[for]",
+            "select",
+            "textarea",
+            "button",
+            ".link",
+          ]}
+        ></AnimatedCursor>
+      </div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
