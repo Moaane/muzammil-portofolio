@@ -2,17 +2,38 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-screen font-sans text-white gap-8 bg-black flex flex-col justify-center items-center pt-12 pb-8">
-      <div className="w-full lg:max-w-[1440px] md:px-8 lg:px-24 xl:px-0">
-        <div className="flex flex-col md:flex-row md:min-w-full md:justify-end items-center gap-6 font-bold">
-          <h1>Style Guide</h1>
-          <h1>License</h1>
-          <h1>Changelog</h1>
-        </div>
-        <p className="text-xs md:text-sm font-medium">
-          Made by Muhammad Muzammil Alvaro
-        </p>
-      </div>
+    <footer className="footer p-10 bg-neutral text-neutral-content 2xl:px-60 lg:px-24 md:px-8 px-4">
+      <nav>
+        <h6 className="footer-title text-orange">Contact Me</h6>
+        <a
+          href="https://www.linkedin.com/in/muzammil-alvaro"
+          target="_blank"
+          className="link link-hover text-black"
+        >
+          Linkedin
+        </a>
+        <a
+          href="https://www.instagram.com/mil.varo"
+          target=""
+          className="link link-hover text-black"
+        >
+          Instagram
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100015843195299"
+          target="_blank"
+          className="link link-hover text-black"
+        >
+          Facebook
+        </a>
+        <a
+          href="https://www.wa.link/3yyvsl"
+          target="_blank"
+          className="link link-hover text-black"
+        >
+          Whatsapp
+        </a>
+      </nav>
     </footer>
   );
 }
