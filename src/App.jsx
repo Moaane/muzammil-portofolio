@@ -5,6 +5,7 @@ import Intro from "./common/Intro";
 import AnimatedCursor from "react-animated-cursor";
 import { isMobile, isDesktop } from "react-device-detect";
 
+
 export default function App() {
   return (
     <Intro>
