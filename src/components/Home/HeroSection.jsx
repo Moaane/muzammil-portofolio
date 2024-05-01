@@ -1,5 +1,5 @@
 import React from "react";
-
+import profileImg from "../../assets/profile.png"
 export default function HeroSection() {
   return (
     <div className="w-full flex flex-col items-center justify-between lg:flex-row  lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero ">
@@ -42,9 +42,9 @@ export default function HeroSection() {
         </div>
       </div>
       <img
-        src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvczkzLXBhLTU3OThfMS5wbmc.png"
+        src={profileImg}
         alt="Gambar Hero"
-        className="mx-auto mt-0 rounded-full shadow-lg w-full max-w-xs md:max-w-lg lg:max-w-sm xl:max-w-md lg:mt-0"
+        className="mx-auto mt-0 rounded-full shadow-xl drop-shadow-lg w-full h-80 md:h-full max-w-xs bg-primary object-cover filter grayscale hover:filter-none transition-all ease-in-out duration-300 md:max-w-lg lg:max-w-sm xl:max-w-md lg:mt-0"
       />
     </div>
   );
