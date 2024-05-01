@@ -24,7 +24,7 @@ export default function HeroSection() {
             WEBFLOW
           </p>
         </div>
-        <div className="flex flex-col items-center w-fit md:flex-row md:space-y-0 space-y-2 group">
+        <div className="flex flex-col items-center md:w-fit md:flex-row md:space-y-0 space-y-2 group">
           <a
             href="https://www.wa.link/3yyvsl"
             target="_blank"
