@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import mountainImg from "../../assets/Mountain-preview.png";
 import disnakerImg from "../../assets/Disnaker-preview.png";
 import dwipantaraImg from "../../assets/Dwipantara-preview.png";

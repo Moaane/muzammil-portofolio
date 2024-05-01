@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Award() {
   return (
     <div className="w-full max-w-[1440px] flex flex-col gap-6 md:gap-8 lg:gap-10">
@@ -80,7 +78,11 @@ export default function Award() {
         </a>
 
         {/* content */}
-        <a href="https://www.figma.com/community/file/1367572794657533574" target="_blank" className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
+        <a
+          href="https://www.figma.com/community/file/1367572794657533574"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}

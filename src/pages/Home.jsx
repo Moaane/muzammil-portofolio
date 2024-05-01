@@ -11,7 +11,7 @@ import LocomotiveScroll from "locomotive-scroll";
 const App = () => {
   useEffect(() => {
     (async () => {
-      const locomotiveScroll = new LocomotiveScroll();
+      new LocomotiveScroll();
     })();
   }, []);
 

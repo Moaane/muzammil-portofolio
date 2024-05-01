@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AboutSection() {
   return (
     <div className="w-full max-w-[1440px] flex flex-col lg:flex-row gap-2 md:gap-6 lg:space-x-2 ">

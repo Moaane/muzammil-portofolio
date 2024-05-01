@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef } from "react";
+import PropTypes from 'prop-types';
 import gsap from "gsap";
 
 export default function Intro({ children }) {
@@ -35,7 +36,7 @@ export default function Intro({ children }) {
     <div className="relative overflow-hidden bg-white" ref={comp}>
       <div
         id="intro-slider"
-        className="h-[500vh] z-20  w-screen p-10 bg-white fixed top-0 left-0 font-sans font-semibold z-10 flex flex-col gap-4 md:gap-10 tracking-tight"
+        className="h-[500vh] z-20  w-screen p-10 bg-white fixed top-0 left-0 font-sans font-semibold flex flex-col gap-4 md:gap-10 tracking-tight"
       >
         <h1 className="text-5xl md:text-7xl lg:text-9xl" id="title-1">
           Web Developer
@@ -51,3 +52,7 @@ export default function Intro({ children }) {
     </div>
   );
 }
+
+Intro.propTypes = {
+  children: PropTypes.node.isRequired,
+};

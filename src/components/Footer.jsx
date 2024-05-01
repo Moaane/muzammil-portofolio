@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
   return (
     <footer className="footer max-w-[1440px] pb-6 text-neutral-content">

@@ -1,12 +1,11 @@
-import React from "react";
-import profileImg from "../../assets/profile.png"
+import profileImg from "../../assets/profile.png";
 export default function HeroSection() {
   return (
     <div className="w-full flex flex-col items-center justify-between lg:flex-row  lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero ">
       <div className="flex flex-col space-y-4 md:space-y-8 text-dark w-full">
         <div className="font-extrabold text-3xl md:text-5xl lg:text-4xl xl:text-5xl duration-300">
           <h1 className="text-neutral-content">
-            HI, I'M MUZAMMIL.
+            HI, I&apos;M MUZAMMIL.
             <span className="block md:leading-relaxed text-primary">
               A WEB DEVELOPER
             </span>
@@ -37,7 +36,7 @@ export default function HeroSection() {
             target="_blank"
             className="btn font-bold w-full md:w-fit border-2 rounded-none xl:h-14 xl:text-lg group-hover:text-primary transition-all ease-in-out duration-300"
           >
-            Let's talk.
+            Let&apos;s talk.
           </a>
         </div>
       </div>
