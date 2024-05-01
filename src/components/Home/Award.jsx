@@ -152,7 +152,7 @@ export default function Award() {
             <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
               {/* Deskripsi penghargaan */}
               <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                OKXPRO Vocational High School
+                OKXPRO Pesat Vocational High School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
                 3rd place in designing and concepting startup applications
