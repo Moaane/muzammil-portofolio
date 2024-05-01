@@ -25,10 +25,6 @@ export default function Intro({ children }) {
         .to("#intro-slider", {
           xPercent: "-100",
           duration: 1.3,
-        })
-        .from("#welcome", {
-          opacity: 0,
-          duration: 0.5,
         });
     }, comp);
 

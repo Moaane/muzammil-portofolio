@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="footer p-10 bg-neutral text-neutral-content 2xl:px-60 lg:px-24 md:px-8 px-4">
+    <footer className="footer max-w-[1440px] pb-6 text-neutral-content">
       <nav>
         <h6 className="footer-title text-orange">Contact Me</h6>
         <a

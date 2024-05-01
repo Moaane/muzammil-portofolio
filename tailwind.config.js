@@ -7,15 +7,19 @@ export default {
     fontFamily: {
       sans: ['"Bai Jamjuree"', ...defaultTheme.fontFamily.sans],
     },
-    colors: {
-      'white': '#f2f0ee',
-      'black': "#161513",
-      'orange': "#e94e37",
-    },
     extend: {},
   },
   daisyui: {
-    themes: [],
+    themes: [
+      {
+        myTheme: {
+          neutral: "#f2f0ee",
+          "neutral-content": "#161513",
+          primary: "#e94e37",
+        },
+      },
+      "light",
+    ],
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

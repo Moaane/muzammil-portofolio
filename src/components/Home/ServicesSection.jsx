@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 export default function ServicesSection() {
   return (
     <div className="w-full max-w-[1440px] flex flex-col gap-6 md:gap-8 lg:gap-6">
-      {" "}
       {/* Container utama */}
       <div className="flex flex-col gap-6">
-        {" "}
         {/* Bagian judul */}
         <h1 className="font-bold text-4xl md:text-5xl font-sans text-center">
           Portofolio
@@ -31,7 +29,9 @@ export default function ServicesSection() {
           Design and extreme programming practice
         </h1>
 
-        <Link to="/" className="font-semibold font-sans underline text-2xl">Read more</Link>
+        <Link to="/" className="font-semibold font-sans underline text-2xl">
+          Read more
+        </Link>
       </div>
     </div>
   );

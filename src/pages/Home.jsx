@@ -6,14 +6,11 @@ import AboutSection from "../components/Home/AboutSection";
 import Tracker from "../components/Home/Tracker";
 import Award from "../components/Home/Award";
 import PortofolioSection from "../components/Home/PortofolioSection";
-import ServicesSection from "../components/Home/ServicesSection";
-import Footer from "../components/Footer";
+import LocomotiveScroll from "locomotive-scroll";
 
 const App = () => {
   useEffect(() => {
     (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-
       const locomotiveScroll = new LocomotiveScroll();
     })();
   }, []);
@@ -30,7 +27,6 @@ const App = () => {
         {/* <ServicesSection /> */}
       </DefaultLayout>
       {/* <div className="h-screen"></div> */}
-      <Footer />
     </div>
   );
 };

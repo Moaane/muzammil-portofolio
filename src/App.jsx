@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Intro from "./common/Intro";
-import AnimCursor from "./components/AnimCursor";
 import AnimatedCursor from "react-animated-cursor";
+import { isMobile, isDesktop } from "react-device-detect";
 
 export default function App() {
   return (
     <Intro>
-      <div className="hidden lg:block">
+      {isDesktop && (
         <AnimatedCursor
           outerSize={0}
           innerSize={70}
@@ -32,12 +31,11 @@ export default function App() {
             "button",
             ".link",
           ]}
-        ></AnimatedCursor>
-      </div>
+        />
+      )}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </Intro>

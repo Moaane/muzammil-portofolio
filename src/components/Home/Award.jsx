@@ -18,124 +18,159 @@ export default function Award() {
       {/* container content */}
       <div className="flex flex-col gap-6">
         {/* content */}
-        <div className="link no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-2 md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
+        <a
+          href="https://www.figma.com/community/file/1367569782509027967"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}
-            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center items-center bg-orange">
+            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center group-hover:bg-primary transition-all ease-in-out duration-300 items-center bg-neutral-content">
               1
             </p>
             <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
               {/* Deskripsi penghargaan */}
               <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                Tim Penghargaan Webflow Awwwards
+                OKXPRO Pesat Vocational High School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                Runner Up - Desain Ahli Webflow
+                1st place in designing startup applications
               </h3>
             </div>
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Desain Produk <br className="sm:hidden" /> 2022
+            Product Design <br className="sm:hidden" />
+            <span className="group-hover:text-primary transition-all ease-in-out duration-300">
+              2024
+            </span>
           </h2>
-        </div>
-        
-        {/* content */}
-        <div className="link no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-2 md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
-          {/* Bagian konten */}
-          <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
-            {/* Item pertama */}
-            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center items-center bg-orange">
-              1
-            </p>
-            <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
-              {/* Deskripsi penghargaan */}
-              <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                Tim Penghargaan Webflow Awwwards
-              </h2>
-              <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                Runner Up - Desain Ahli Webflow
-              </h3>
-            </div>
-          </div>
-          <h2 className="font-semibold uppercase text-center md:text-lg">
-            {/* Tahun Desain */}
-            Desain Produk <br className="sm:hidden" /> 2022
-          </h2>
-        </div>
+        </a>
 
         {/* content */}
-        <div className="link no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-2 md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
+        <a
+          href="https://www.figma.com/community/file/1367570451406636673"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}
-            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center items-center bg-orange">
-              1
+            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center group-hover:bg-primary transition-all ease-in-out duration-300 items-center bg-neutral-content">
+              2
             </p>
             <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
               {/* Deskripsi penghargaan */}
               <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                Tim Penghargaan Webflow Awwwards
+                OKXPRO Pesat Vocational High School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                Runner Up - Desain Ahli Webflow
+                1st place in designing startup applications
               </h3>
             </div>
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Desain Produk <br className="sm:hidden" /> 2022
+            Product Design <br className="sm:hidden" />
+            <span className="group-hover:text-primary transition-all ease-in-out duration-300">
+              2023
+            </span>
           </h2>
-        </div>
+        </a>
 
         {/* content */}
-        <div className="link no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-2 md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
+        <a
+          href="https://www.figma.com/community/file/1367572794657533574"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}
-            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center items-center bg-orange">
-              1
+            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center group-hover:bg-primary transition-all ease-in-out duration-300 items-center bg-neutral-content">
+              3
             </p>
             <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
               {/* Deskripsi penghargaan */}
               <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                Tim Penghargaan Webflow Awwwards
+                ITAS Pakuan University Bogor
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                Runner Up - Desain Ahli Webflow
+                1st place in designing applications
               </h3>
             </div>
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Desain Produk <br className="sm:hidden" /> 2022
+            Product Design <br className="sm:hidden" />
+            <span className="group-hover:text-primary transition-all ease-in-out duration-300">
+              2022
+            </span>
           </h2>
-        </div>
+        </a>
 
         {/* content */}
-        <div className="link no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-2 md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
+        <a
+          href="https://www.figma.com/community/file/1367571796591481475"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}
-            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center items-center bg-orange">
-              1
+            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center group-hover:bg-primary transition-all ease-in-out duration-300 items-center bg-neutral-content">
+              4
             </p>
             <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
               {/* Deskripsi penghargaan */}
               <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
-                Tim Penghargaan Webflow Awwwards
+                IT FEST IDN Boarding School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                Runner Up - Desain Ahli Webflow
+                3rd place in designing startup applications
               </h3>
             </div>
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Desain Produk <br className="sm:hidden" /> 2022
+            Product Design <br className="sm:hidden" />
+            <span className="group-hover:text-primary transition-all ease-in-out duration-300">
+              2022
+            </span>
           </h2>
-        </div>
+        </a>
+
+        {/* content */}
+        <a
+          href="https://www.figma.com/community/file/1367573642267458184"
+          target="_blank"
+          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
+        >
+          {/* Bagian konten */}
+          <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
+            {/* Item pertama */}
+            <p className="w-12 h-12 flex text-white text-xl font-bold justify-center group-hover:bg-primary transition-all ease-in-out duration-300 items-center bg-neutral-content">
+              5
+            </p>
+            <div className="flex flex-col gap-6 md:gap-4 lg:gap-0">
+              {/* Deskripsi penghargaan */}
+              <h2 className="font-bold text-center lg:text-left text-xl md:text-2xl">
+                OKXPRO Vocational High School
+              </h2>
+              <h3 className="font-semibold text-center lg:text-left md:text-xl">
+                1st place in designing and concepting startup applications
+              </h3>
+            </div>
+          </div>
+          <h2 className="font-semibold uppercase text-center md:text-lg">
+            {/* Tahun Desain */}
+            Product Design <br className="sm:hidden" />
+            <span className="group-hover:text-primary transition-all ease-in-out duration-300">
+              2022
+            </span>
+          </h2>
+        </a>
       </div>
     </div>
   );
