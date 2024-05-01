@@ -44,7 +44,7 @@ export default function HeroSection() {
       <img
         src={profileImg}
         alt="Gambar Hero"
-        className="mx-auto mt-0 rounded-full shadow-xl drop-shadow-lg w-full h-80 md:h-full max-w-xs bg-primary object-cover filter grayscale hover:filter-none transition-all ease-in-out duration-300 md:max-w-lg lg:max-w-sm xl:max-w-md lg:mt-0"
+        className="mx-auto mt-0 rounded-full shadow-xl drop-shadow-lg w-full h-80 md:h-full max-w-xs bg-primary object-cover z-0 filter grayscale hover:filter-none transition-all ease-in-out duration-300 md:max-w-lg lg:max-w-sm xl:max-w-md lg:mt-0"
       />
     </div>
   );
