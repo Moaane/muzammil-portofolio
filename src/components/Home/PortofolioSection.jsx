@@ -45,7 +45,7 @@ export default function PortofolioSection() {
             <a
               href="https://www.figma.com/community/file/1327688326163724937"
               target="_blank"
-              className="font-semibold font-sans w-fit text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl hover:text-primary"
+              className="font-semibold font-sans underline w-fit text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl hover:text-primary"
             >
               Read more
             </a>
