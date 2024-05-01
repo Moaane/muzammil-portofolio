@@ -97,7 +97,7 @@ export default function PortofolioSection() {
           </a>
           <div className="gap-4 md:gap-6 flex flex-col justify-between min-h-full py-6">
             <h1 className="uppercase text-white font-sans font-extrabold md:text-xl xl:text-2xl 2xl:text-3xl px-4 py-2 w-fit bg-primary">
-              product design
+              ui design
             </h1>
 
             <h1 className="font-bold text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl font-sans tracking-tight lg:tracking-normal leading-tight">

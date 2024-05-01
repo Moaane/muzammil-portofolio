@@ -41,7 +41,7 @@ export default function Award() {
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Product Design <br className="sm:hidden" />
+            UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
               2024
             </span>
@@ -72,7 +72,7 @@ export default function Award() {
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Product Design <br className="sm:hidden" />
+            UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
               2023
             </span>
@@ -80,11 +80,7 @@ export default function Award() {
         </a>
 
         {/* content */}
-        <a
-          href="https://www.figma.com/community/file/1367572794657533574"
-          target="_blank"
-          className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
-        >
+        <a href="https://www.figma.com/community/file/1367572794657533574" target="_blank" className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300">
           {/* Bagian konten */}
           <div className="flex flex-col lg:flex-row justify-start items-center gap-6 md:gap-4">
             {/* Item pertama */}
@@ -103,7 +99,7 @@ export default function Award() {
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Product Design <br className="sm:hidden" />
+            UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
               2022
             </span>
@@ -134,7 +130,7 @@ export default function Award() {
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Product Design <br className="sm:hidden" />
+            UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
               2022
             </span>
@@ -143,7 +139,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367573642267458184"
+          href="https://www.figma.com/community/file/1367571796591481475"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -159,13 +155,13 @@ export default function Award() {
                 OKXPRO Vocational High School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                1st place in designing and concepting startup applications
+                3rd place in designing and concepting startup applications
               </h3>
             </div>
           </div>
           <h2 className="font-semibold uppercase text-center md:text-lg">
             {/* Tahun Desain */}
-            Product Design <br className="sm:hidden" />
+            UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
               2022
             </span>
