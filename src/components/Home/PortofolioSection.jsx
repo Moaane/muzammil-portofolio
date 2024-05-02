@@ -22,7 +22,7 @@ export default function PortofolioSection() {
         {/* content */}
         <div className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:justify-between lg:gap-8 xl:gap-12">
           <a
-            href="https://dribbble.com/shots/24100507-Camping-Website-UI"
+            href="https://dribbble.com/shots/24100507-Camping-Website-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Camping%20Website%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Camping%20Website%20UI&utm_medium=Social_Share"
             target="_blank"
           >
             <img
@@ -41,7 +41,7 @@ export default function PortofolioSection() {
             </h1>
 
             <a
-              href="https://dribbble.com/shots/24100507-Camping-Website-UI"
+              href="https://dribbble.com/shots/24100507-Camping-Website-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Camping%20Website%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Camping%20Website%20UI&utm_medium=Social_Share"
               target="_blank"
               className="font-semibold font-sans underline w-fit text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl hover:text-primary"
             >
@@ -53,7 +53,7 @@ export default function PortofolioSection() {
         {/* content */}
         <div className="flex flex-col lg:flex-row-reverse gap-4 md:gap-6 lg:justify-between lg:gap-8 xl:gap-12">
           <a
-            href="https://dribbble.com/shots/24100624-Silancar-Website-UI"
+            href="https://dribbble.com/shots/24100624-Silancar-Website-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Silancar%20Website%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Silancar%20Website%20UI&utm_medium=Social_Share"
             target="_blank"
           >
             <img
@@ -72,7 +72,7 @@ export default function PortofolioSection() {
             </h1>
 
             <a
-              href="https://dribbble.com/shots/24100624-Silancar-Website-UI"
+              href="https://dribbble.com/shots/24100624-Silancar-Website-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Silancar%20Website%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Silancar%20Website%20UI&utm_medium=Social_Share"
               target="_blank"
               className="font-semibold font-sans underline text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl hover:text-primary"
             >
@@ -84,7 +84,7 @@ export default function PortofolioSection() {
         {/* content */}
         <div className="flex flex-col lg:flex-row gap-4 md:gap-6 lg:justify-between lg:gap-8 xl:gap-12">
           <a
-            href="https://dribbble.com/shots/24100693-UI-Indonesian-Culture-Learning-Application"
+            href="https://dribbble.com/shots/24100693-UI-Indonesian-Culture-Learning-Application?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=UI%20Indonesian%20Culture%20Learning%20Application&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=UI%20Indonesian%20Culture%20Learning%20Application&utm_medium=Social_Share"
             target="_blank"
           >
             <img
@@ -103,7 +103,7 @@ export default function PortofolioSection() {
             </h1>
 
             <a
-              href="https://dribbble.com/shots/24100693-UI-Indonesian-Culture-Learning-Application"
+              href="https://dribbble.com/shots/24100693-UI-Indonesian-Culture-Learning-Application?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=UI%20Indonesian%20Culture%20Learning%20Application&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=UI%20Indonesian%20Culture%20Learning%20Application&utm_medium=Social_Share"
               target="_blank"
               className="font-semibold font-sans underline text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl hover:text-primary"
             >

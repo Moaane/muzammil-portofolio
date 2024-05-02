@@ -17,7 +17,7 @@ export default function Award() {
       <div className="flex flex-col gap-6">
         {/* content */}
         <a
-          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -48,7 +48,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://dribbble.com/shots/24100812-Lookjob-s-UI-Job-Search-Application"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -79,7 +79,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://dribbble.com/shots/24100843-Hospital-Pesat-UI"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -110,7 +110,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://dribbble.com/shots/24100904-Intern-UI-Intern-Search-Application"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -141,7 +141,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://dribbble.com/shots/24100931-Ixit-Internasional-Trade-Middleman-UI"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI?utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Millvaro&utm_content=Mind%20Self%20App%20For%20Track%20Your%20Habit%20UI&utm_medium=Social_Share"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
