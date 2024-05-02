@@ -25,14 +25,14 @@ export default function HeroSection() {
         </div>
         <div className="flex flex-col items-center md:w-fit md:flex-row md:space-y-0 space-y-2 group">
           <a
-            href="https://www.wa.link/3yyvsl"
+            href="https://www.linkedin.com/in/muzammil-alvaro"
             target="_blank"
             className="btn bg-black text-white w-full md:btn-wide border-none rounded-none group-hover:bg-primary transition-all ease-in-out duration-300 xl:text-lg xl:w-72 xl:h-14"
           >
             Got a project?
           </a>
           <a
-            href="https://www.wa.link/3yyvsl"
+            href="https://www.linkedin.com/in/muzammil-alvaro"
             target="_blank"
             className="btn font-bold w-full md:w-fit border-2 rounded-none xl:h-14 xl:text-lg group-hover:text-primary transition-all ease-in-out duration-300"
           >
