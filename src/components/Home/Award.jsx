@@ -17,7 +17,7 @@ export default function Award() {
       <div className="flex flex-col gap-6">
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367569782509027967"
+          href="https://dribbble.com/shots/24100760-Mind-Self-App-For-Track-Your-Habit-UI"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -48,7 +48,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367570451406636673"
+          href="https://dribbble.com/shots/24100812-Lookjob-s-UI-Job-Search-Application"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -79,7 +79,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367572794657533574"
+          href="https://dribbble.com/shots/24100843-Hospital-Pesat-UI"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -110,7 +110,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367571796591481475"
+          href="https://dribbble.com/shots/24100904-Intern-UI-Intern-Search-Application"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -141,7 +141,7 @@ export default function Award() {
 
         {/* content */}
         <a
-          href="https://www.figma.com/community/file/1367571796591481475"
+          href="https://dribbble.com/shots/24100931-Ixit-Internasional-Trade-Middleman-UI"
           target="_blank"
           className="link group no-underline font-sans flex flex-col lg:flex-row justify-between items-center border-4 border-neutral-content md:gap-4 gap-6 py-8 px-9 hover:bg-black hover:text-white hover:shadow-lg transition-all ease-in-out duration-300"
         >
@@ -157,7 +157,7 @@ export default function Award() {
                 OKXPRO Pesat Vocational High School
               </h2>
               <h3 className="font-semibold text-center lg:text-left md:text-xl">
-                3rd place in designing and concepting startup applications
+                1st place in designing and concepting startup applications
               </h3>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function Award() {
             {/* Tahun Desain */}
             UI Design <br className="sm:hidden" />
             <span className="group-hover:text-primary transition-all ease-in-out duration-300">
-              2022
+              2021
             </span>
           </h2>
         </a>
