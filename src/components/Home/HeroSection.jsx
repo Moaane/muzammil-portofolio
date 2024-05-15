@@ -1,4 +1,4 @@
-import profileImg from "../../assets/profile.png";
+import profileImg from "../../assets/pfp.jpg";
 export default function HeroSection() {
   return (
     <div className="w-full flex flex-col items-center justify-between lg:flex-row  lg:py-8 lg:space-y-0 max-w-[1440px] space-y-6 md:space-y-12 hero ">
@@ -41,7 +41,7 @@ export default function HeroSection() {
         </div>
       </div>
       <img
-        src="/pfp.jpg"
+        src={profileImg}
         alt="Gambar Hero"
         className="mx-auto mt-0 rounded-full shadow-xl drop-shadow-lg w-full h-80 md:h-full max-w-xs bg-primary object-cover z-0 filter grayscale hover:filter-none transition-all ease-in-out duration-300 md:max-w-lg lg:max-w-sm xl:max-w-md lg:mt-0"
       />
